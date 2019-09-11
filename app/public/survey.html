@@ -179,8 +179,8 @@
     <div id="results-modal" class="modal fade" role="dialog">
         <div class="modal-dialog">
             <!--Modal Content-->
-            <div class="modal content">
-                <div class="modal-header">_</div>
+            <div class="modal-content">
+                <div class="modal-header">Best Match</div>
                 <div class="modal-body">_</div>
                 <div class="modal-footer">_</div>
             </div>
@@ -214,20 +214,20 @@
     }
 
     // Capture the form inputs
-    $("#submit").on("click", function(event) {
+    $("#submit").on("click", function (event) {
         event.preventDefault();
 
         //Form validation
         function validateForm() {
             var isValid = true;
-            $(".form-control").each(function() {
+            $(".form-control").each(function () {
                 if ($(this).val() === "") {
                     isValid = false;
                 }
             });
 
-            $(".chosen-select").each(function() {
-                if($(this).val() === "") {
+            $(".chosen-select").each(function () {
+                if ($(this).val() === "") {
                     isValid = false;
                 }
             });
@@ -235,7 +235,7 @@
         }
 
         //If all required fields are filled
-        if(validateForm()) {
+        if (validateForm()) {
             //Create an object for the user's data
             var userData = {
                 name: $("#name").val(),
@@ -255,7 +255,7 @@
             };
 
             //AJAX post the data to the friends API
-            $.post("/api/friends", userData, function(data) {
+            $.post("/api/friends", userData, function (data) {
 
                 //Grab the result from the AJAX post so that the best match's name and phott are displayed
                 $("#match-name").text(data.name);
@@ -268,5 +268,5 @@
             alert("Please fill out all fields before submitting!");
         }
     });
-    
+
 </script>
