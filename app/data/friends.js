@@ -1,32 +1,32 @@
 var friends = [
     {
-        name: "Juan Gomez",
-        photo: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        name: "Snoop Dogg",
+        photo: "https://www.biography.com/.image/t_share/MTQ3NjM5ODIyNjU0MTIxMDM0/snoop_dogg_photo_by_estevan_oriol_archive_photos_getty_455616412.jpg",
         scores: [1,2,3,4,5,1,2,3,4,5]
     },
     {
-        name: "Anthony Jones",
-        photo: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        name: "Bill Gates",
+        photo: "https://pbs.twimg.com/profile_images/988775660163252226/XpgonN0X_400x400.jpg",
         scores: [1,2,3,4,5,1,2,3,4,4]
     },
     {
-        name: "Nikkole Williams",
-        photo: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        name: "Oprah",
+        photo: "https://sites.google.com/site/whoamibyhiralborania/_/rsrc/1483271313707/global-entrepreneurs/oprah-winfrey/Oprah%20Winfrey.jpg?height=400&width=320",
         scores: [1,2,3,4,5,1,2,3,4,3]
     },
     {
-        name: "Jamie Hobbs",
-        photo: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        name: "Voldemort",
+        photo: "https://qph.fs.quoracdn.net/main-qimg-140bb8e3d8c9980fec152ee65c2cb16b",
         scores: [1,2,3,4,5,1,2,3,4,2]
     },
     {
         name: "Jon Snow",
-        photo: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        photo: "https://pbs.twimg.com/profile_images/901947348699545601/hqRMHITj_400x400.jpg",
         scores: [1,2,3,4,5,1,2,3,4,1]
     },
     {
-        name: "Samantha Garcia",
-        photo: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        name: "Tyrone Biggums",
+        photo: "https://i.imgflip.com/2clrac.jpg",
         scores: [4,4,2,3,2,2,3,2,5,4]
     }
 
