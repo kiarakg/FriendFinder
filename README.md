@@ -15,7 +15,7 @@ To run the code on your local server:
 2. Then use the following urls:
     * localhost:8001
 
-## [Friend Finder](https://infinite-retreat-01817.herokuapp.com/)
+## [Friend Finder App](https://infinite-retreat-01817.herokuapp.com/)
 
 ![pic](/public/images/FriendFinder.png)
 
